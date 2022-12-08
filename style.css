@@ -36,30 +36,32 @@
   0% {
 
 background-color: red;
-border: 0px;
+border: 25px;
+
+transform:scaleX(-25px 25px) ;
 
   }
 
 25%{
 
   background-color: blueviolet;
-  border: 50px solid violet;
+  border: 50px dashed violet;
 }
 
 50%{
   background-color: green;
-  border: 50px solid yellowgreen;
+  border: 20px dashed yellowgreen;
 }
 
 75%{
   background-color: blue;
-  border: 50px solid rgb(91, 91, 231);
+  border: 10px solid rgb(91, 91, 231);
 
 }
   100%{
 
 background-color: aqua;
-border: 50px solid red;
+border: 10px solid red;
 
   }
 }
