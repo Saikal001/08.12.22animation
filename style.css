@@ -50,6 +50,12 @@ border: 0px;
   background-color: green;
   border: 50px solid yellowgreen;
 }
+
+75%{
+  background-color: blue;
+  border: 50px solid rgb(91, 91, 231);
+
+}
   100%{
 
 background-color: aqua;
