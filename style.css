@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+.example-1{
+  width: 100px;
+  height: 100px;
+  
+
+  animation-name: background-change;/*nones*/
+  animation-duration: 2s;/*0*/
+  animation-delay: 2s;/*0*/
+  animation-fill-mode: both;/*none*/
+  animation-iteration-count: infinite;/*1*/
+  animation-duration: alternate;
+  animation-timing-function: linear;/*ease-in*/
+}
+ 
+
+
+
+.example-1:hover{
+  animation-play-state: paused; /* running*/
+
+}
+
+
+
+
+
+
+
+
+@keyframes background-change  {
+
+
+  0% {
+
+background-color: red;
+border: 0px;
+
+  }
+
+50%{
+  background-color: green;
+  border: 50px solid yellowgreen;
+}
+  100%{
+
+background-color: aqua;
+border: 50px solid red;
+
+  }
+}
+
