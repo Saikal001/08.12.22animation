@@ -40,6 +40,12 @@ border: 0px;
 
   }
 
+25%{
+
+  background-color: blueviolet;
+  border: 50px solid violet;
+}
+
 50%{
   background-color: green;
   border: 50px solid yellowgreen;
